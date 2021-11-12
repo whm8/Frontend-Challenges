@@ -5,8 +5,4 @@ document.addEventListener("DOMContentLoaded", () => {
     nav.classList.toggle("nav--visible");
   });
 
-  const btn = document.querySelector(".nav__link--button");
-  console.log(btn);
-
-
 });
