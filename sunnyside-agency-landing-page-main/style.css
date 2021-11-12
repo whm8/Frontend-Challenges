@@ -234,7 +234,7 @@ header {
 
 .testimonials {
   text-align: center;
-  padding: 3rem 0;
+  padding: 6rem 0;
 }
 
 .testimonials__title {
@@ -366,7 +366,7 @@ footer {
   /* Testimonials */
 
   .testimonials {
-    padding: 6rem;
+    padding: 10rem;
   }
 
   /* Pics section */
@@ -378,11 +378,17 @@ footer {
 
 @media (min-width: 1200px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   /* Header */
+  .hero__title {
+    margin: 1em 0;
+    font-size: 3rem;
+  }
+
   .navbar {
+    padding-top: 0;
     justify-content: space-between;
     align-items: center;
   }
@@ -423,7 +429,7 @@ footer {
 
   /* Intro */
   .card {
-    padding: 10rem;
+    padding: 7rem;
   }
 
   .intro__column .card {
